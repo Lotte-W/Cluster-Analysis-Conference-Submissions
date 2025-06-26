@@ -2,7 +2,7 @@
 This project performs text clustering, term extraction, and semantic grouping of documents using TF-IDF vectorization and hierarchical clustering. It is designed for analyzing a collection of text documents (e.g., conference paper submissions), identifying top terms, and grouping similar documents based on content.
 
 Project structure
-├── stop_words.py              # Contains the list of stop words
+├── stop_words.py              # Contains the list of stop words </br>
 ├── cluster_report.txt         # Auto-generated: Top terms for each document
 ├── group_explanations.txt     # Auto-generated: Summary of document clusters
 ├── Clustering.py              # Main script (provided code)
