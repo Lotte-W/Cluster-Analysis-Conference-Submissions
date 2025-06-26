@@ -1,3 +1,8 @@
+# Things to change before running:
+# Install needed Python packages: pip install numpy pandas scikit-learn scipy matplotlib nltk
+# Line 20: check if you have stop_words in the same folder as this code. Also check if the stop words are enough or if appending is necessary.
+# Line 42: Update file path to where your files are. Make sure every submission is it's own .txt file. 
+
 import re
 import nltk
 import os
