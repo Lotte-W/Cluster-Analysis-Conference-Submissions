@@ -27,3 +27,22 @@ Project documentation (this file) </br>
 | top_n=10  | get_top_terms() | Number of key terms to extract per document |
 | num_groups=8 | group_documents() | Number of output groups. How many sessions do you want to have? |
 | group_size=6 | group_documents() | Number of documents per group. How many submissions do you want to have for each session? |
+
+## Example
+Folder filled with .txt files, each .txt file was the abstract of a submission for a conference. 50 in total. The dendogram showed that submissions 281 and 296 were close together and would go well together in a session.
+
+**Output cluster_report.txt:** </br>
+Document: 281 </br>
+Top terms: one, national, 2023, services, data, model, service, platform, carbon, footprint </br>
+</br>
+
+Document: 296 </br>
+Top terms: preserved, data, computer, long, term, activities, cloud, storage, footprint, carbon </br>
+</br>
+
+**output group_explanations.txt** </br>
+Group 8: </br>
+Documents: 262, 290, 317, 281, 296, 187, 213, 225 </br>
+Common terms: org, https, data, cloud, records, first, related, years, one, metadata </br>
+
+
