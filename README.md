@@ -20,3 +20,10 @@ Project documentation (this file) </br>
 * Document grouping with explainable term summaries
 * Generates reports for both individual documents and grouped clusters
 
+## Customisation
+| Parameter  | Location | Purpose |
+| ------------- | ------------- |  ------------- |
+| max_features=100  | TfidVectorizer  | Limit top N features from corpus |
+| top_n=10  | get_top_terms() | Number of key terms to extract per document |
+| num_groups=8 | group_documents() | Number of output groups. How many sessions do you want to have? |
+| group_size=6 | group_documents() | Number of documents per group. How many submissions do you want to have for each session? |
